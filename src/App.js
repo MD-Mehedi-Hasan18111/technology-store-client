@@ -19,6 +19,7 @@ import ManageProducts from "./components/DashboardComponents/ManageProducts/Mana
 import AddProducts from "./components/DashboardComponents/AddProducts/AddProducts";
 import MakeAdmin from "./components/DashboardComponents/MakeAdmin/MakeAdmin";
 import HomeDashboard from "./components/DashboardComponents/DashboardHome/HomeDashboard";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="*" element={<NotFound />} />
           <Route
             path="/placeOrder/:id"
             element={
