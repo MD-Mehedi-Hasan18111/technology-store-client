@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./TopProduct.css";
 import { Col, Container, Row, Spinner } from "react-bootstrap";
 import ProductCard from "../ProductCard/ProductCard";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const TopProduct = () => {
   const [products, setProducts] = useState([]);
@@ -11,6 +13,7 @@ const TopProduct = () => {
     fetch("https://afternoon-anchorage-61727.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
+      AOS.init();
   }, []);
 
   const TopProduct = products.filter((pd) => pd.brand === brand);

@@ -9,10 +9,10 @@ const ProductCard = (props) => {
 
   return (
     <Link to={`/details/${_id}`}>
-      <Col className="product-card">
+      <Col className="product-card" data-aos="flip-up" data-aos-duration="1000">
         {/* <img style={{ width: "250px", height: "200px" }} src={image} alt="" />
             <h6>{name}</h6> */}
-        <div class="card" style={{ backgroundImage: `url(data:image/png;base64,${image})` }}>
+        <div class="card" style={{ backgroundImage: `url(data:image/png;base64,${image})`}}>
           <div class="text">
             <h5>{name}</h5>
             <h6 style={{ marginTop: "5px" }}>

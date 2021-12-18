@@ -94,36 +94,54 @@ const Dashboard = () => {
 
                 <div className="dashboard-menu">
                   <ul>
-                    <li>
-                      <NavLink end to="/dashboard/myOrder">
-                        My Orders
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink end to="/dashboard/customerReview">
-                        My Reviews
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink end to="/dashboard/manageOrders">
-                        Manage Orders
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink end to="/dashboard/addProducts">
-                        Add Products
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink end to="/dashboard/manageProducts">
-                        Manage Products
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink end to="/dashboard/makeAdmin">
-                        Make an Admin
-                      </NavLink>
-                    </li>
+                    {!isAdmin && (
+                      <>
+                        <li>
+                          <NavLink end to="/dashboard/myOrder">
+                            My Orders
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/dashboard/customerReview">
+                            My Reviews
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/home">
+                            Back To Home
+                          </NavLink>
+                        </li>
+                      </>
+                    )}
+                    {isAdmin && (
+                      <>
+                        <li>
+                          <NavLink end to="/dashboard/manageOrders">
+                            Manage Orders
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/dashboard/addProducts">
+                            Add Products
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/dashboard/manageProducts">
+                            Manage Products
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/dashboard/makeAdmin">
+                            Make an Admin
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink end to="/home">
+                            Back To Home
+                          </NavLink>
+                        </li>
+                      </>
+                    )}
                   </ul>
                 </div>
 

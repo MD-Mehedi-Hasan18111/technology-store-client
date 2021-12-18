@@ -3,6 +3,8 @@ import { Table } from "react-bootstrap";
 import useAuth from "../../../hooks/useAuth";
 import "./MyOrders.css";
 import swal from "sweetalert";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MyOrders = () => {
 
@@ -15,6 +17,7 @@ const MyOrders = () => {
         .then(data => {
             setOrders(data)
         })
+        AOS.init();
     }, [orders, user.email])
 
   const cancelOrder = (id) => {
@@ -65,7 +68,7 @@ const MyOrders = () => {
           <tbody>
             {orders?.map((order, index) => (
               <>
-                <tr>
+                <tr data-aos="fade-down">
                 <td><img style={{width: "60px"}} src={`data:image/png;base64,${order?.image}`} alt="" /></td>
                   <td>{order?.name}</td>
                   <td>{order?.processor}</td>
