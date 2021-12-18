@@ -23,7 +23,7 @@ const Reviews = () => {
       >
         TESTIMONIAL
       </h2>
-      <Container>
+      <Container  style={{marginTop: "70px"}}>
         {reviews.length > 0 ? (
           <Row xs={1} md={2} lg={3} className="mt-3 g-4">
             {reviews?.map((review) => (

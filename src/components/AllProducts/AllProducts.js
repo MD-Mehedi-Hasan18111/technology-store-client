@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './AllProducts.css';
 import { Col, Container, Row, Spinner } from "react-bootstrap";
 import Navigation from "../../Shared/Navigation/Navigation";
 import ProductCard from "../ProductCard/ProductCard";
@@ -50,10 +51,9 @@ const AllProducts = () => {
           </Row>
         </Container>
       </div>
-      <Container className="py-4">
+      <Container className="py-4 top-products">
         <h4 style={{ color: "#2c3e50" }}>
           Acer laptop are available for sales{" "}
-          <i className="fas fa-arrow-right"></i>
         </h4>
         {acerProducts.length > 0 ? (
           <Row xs={1} md={2} lg={3}>
@@ -69,10 +69,9 @@ const AllProducts = () => {
           </div>
         )}
       </Container>
-      <Container className="py-4">
+      <Container className="py-4 top-products">
         <h4 style={{ color: "#2c3e50" }}>
           HP laptop are available for sales{" "}
-          <i className="fas fa-arrow-right"></i>
         </h4>
         {hpProducts.length > 0 ? (
           <Row xs={1} md={2} lg={3}>
@@ -88,10 +87,9 @@ const AllProducts = () => {
           </div>
         )}
       </Container>
-      <Container className="py-4">
+      <Container className="py-4 top-products">
         <h4 style={{ color: "#2c3e50" }}>
           Lenovo laptop are available for sales{" "}
-          <i className="fas fa-arrow-right"></i>
         </h4>
         {lenovoProducts.length > 0 ? (
           <Row xs={1} md={2} lg={3}>
@@ -107,10 +105,9 @@ const AllProducts = () => {
           </div>
         )}
       </Container>
-      <Container className="py-4">
+      <Container className="py-4 top-products">
         <h4 style={{ color: "#2c3e50" }}>
           Samsung laptop are available for sales{" "}
-          <i className="fas fa-arrow-right"></i>
         </h4>
         {samsungProducts.length > 0 ? (
           <Row xs={1} md={2} lg={3}>
@@ -126,10 +123,9 @@ const AllProducts = () => {
           </div>
         )}
       </Container>
-      <Container className="py-4">
+      <Container className="py-4 top-products">
         <h4 style={{ color: "#2c3e50" }}>
           Walton laptop are available for sales{" "}
-          <i className="fas fa-arrow-right"></i>
         </h4>
         {waltonProducts.length > 0 ? (
           <Row xs={1} md={2} lg={3}>

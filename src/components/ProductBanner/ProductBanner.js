@@ -10,24 +10,24 @@ const ProductBanner = () => {
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <div className="single-product-banner phone">
+                        <div className="single-product-banner laptop1">
                             <div className="product-text">
                                 <span>new arrivals</span>
                                 <h5>Acer/Core-i7/8GB RAM</h5>
                             </div>
                             <div className="phone-thumb">
-                                <img style={{height: "200px"}} src={laptop1} alt="phone-img" />
+                                <img style={{width: "100%"}} src={laptop1} alt="laptop-img" />
                             </div>
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <div className="single-product-banner laptop">
+                        <div className="single-product-banner laptop2">
                             <div className="product-text">
                                 <span>sall 30% off</span>
                                 <h5>Computers & Laptop</h5>
                             </div>
                             <div className="phone-thumb">
-                                <img style={{height: "200px"}} src={laptop2} alt="phone-img" />
+                                <img style={{width: "100%"}} src={laptop2} alt="laptop-img" />
                             </div>
                         </div>
                     </Col>
