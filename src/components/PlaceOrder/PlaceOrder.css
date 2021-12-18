@@ -1,0 +1,67 @@
+.form{
+    padding-left: 150px;
+}
+
+.form input{
+    display: block;
+    width: 500px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 20px; 
+    outline: none;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+}
+
+.placeBtn{
+    z-index: 1;
+    width: 500px;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #2c3e50;
+}
+
+.placeBtn::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2980b9;
+    transform-origin: center top;
+    transform: scaleY(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .placeBtn:hover {
+    cursor: pointer;
+  }
+  
+  .placeBtn:hover::before {
+    transform-origin: center bottom;
+    transform: scaleY(1);
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+    .form{
+        margin: 15px 0;
+        padding: 0;
+    }
+
+    .form input{
+        width: 100%;
+    }
+
+    .placeBtn{
+        width: 100%
+    }
+}

@@ -1,0 +1,51 @@
+.details-area{
+    font-family: sans-serif;
+}
+
+.laptop-info h5{
+    display: inline;
+    margin-right: 20px;
+}
+
+.orderBtn{
+    z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #2C3E50;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+.orderBtn::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 110%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #2980b9;
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  .orderBtn:hover {
+    cursor: pointer;
+  }
+  
+  .orderBtn:hover::before {
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+  }
+
+  @media only screen and (max-width: 600px) {
+      .laptop-info h5{
+          font-size: 18px;
+      }
+  }

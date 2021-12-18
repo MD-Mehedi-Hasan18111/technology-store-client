@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MD Mehedi Hasan",
+        "reviewMessage": "Hey Tech Store, thank you for visiting us today! To help us best serve you and others, could you click on this to answer one question about your experience today? Thanks Technology Store for giving nice laptop.",
+        "date": "15/12/2021",
+        "rating": 4
+    },
+
+    {
+        "name": "Shahanaj Akter",
+        "reviewMessage": "Hey Tech Store, thank you for visiting us today! To help us best serve you and others, could you click on this to answer one question about your experience today? Thanks Technology Store for giving nice laptop.",
+        "date": "15/12/2021",
+        "rating": 4.7
+    },
+
+    {
+        "name": "Jhankar Mahbub",
+        "reviewMessage": "Hey Tech Store, thank you for visiting us today! To help us best serve you and others, could you click on this to answer one question about your experience today? Thanks Technology Store for giving nice laptop.",
+        "date": "15/12/2021",
+        "rating": 3.8
+    }
+]

@@ -1,0 +1,41 @@
+.form-area{
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #2980b9;
+    margin-top: 10px;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.form-area h4{
+    font-weight: bold;
+}
+
+.form-area input{
+    height: 40px;
+    width: 450px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2980b9;
+}
+
+.securityBtn{
+    border: none;
+    background: #2980b9;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .form-area{
+        padding: 20px 20px;
+        margin-bottom: 25px;
+    }
+
+    .form-area input{
+        width: 100%;
+    }
+}

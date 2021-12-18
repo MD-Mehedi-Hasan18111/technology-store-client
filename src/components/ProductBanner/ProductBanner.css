@@ -1,0 +1,31 @@
+.product-banner {
+    padding: 50px 0;
+}
+.single-product-banner {
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+.single-product-banner.phone {
+    background: #665A98;
+}
+.single-product-banner.laptop {
+    background: #5AB3E6;
+}
+.product-text span {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    display: block;
+}
+.product-text h5 {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 36px;
+    width: 200px;
+    margin: 0;
+}

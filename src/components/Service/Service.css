@@ -1,0 +1,30 @@
+.songle-service {
+    display: flex;
+    align-items: center;
+}
+
+.service-thumb {
+    width: 20%;
+}
+
+.service-text {
+    width: 80%;
+}
+
+.service-text p {
+    color: #666666;
+    margin: 0;
+    font-size: 15px;
+}
+
+.service-text h5 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+.service-container{
+    border: 1px solid #EBEBEB;
+    padding: 50px 20px;
+}

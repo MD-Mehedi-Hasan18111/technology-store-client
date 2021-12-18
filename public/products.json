@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1,
+        "name": "Acer laptop core-i3 MODAL - 4N713",
+        "price": 320,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/Xk9Bc31/Acer-1.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "240GB",
+        "gen": "6th Generation"
+    },
+
+    {
+        "id": 2,
+        "name": "Acer laptop core-i5 MODAL - 14M625",
+        "price": 450,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/ZK1NDSP/Acer-2.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i5 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i5",
+        "ram": "8GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 3,
+        "name": "Acer laptop core-i3 MODAL - 123DH3",
+        "price": 300,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/zHkLwbc/Acer-3.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "120GB",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 4,
+        "name": "Acer laptop core-i5 MODAL - 5510NK",
+        "price": 350,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/ZgkcDfB/Acer-4.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i5",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "520GB",
+        "gen": "4th Generation"
+    },
+
+    {
+        "id": 5,
+        "name": "Acer laptop core-i7 MODAL - 65N12K",
+        "price": 340,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/2F3pZL1/Acer-5.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i7",
+        "ram": "8GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 6,
+        "name": "Acer laptop core-i3 MODAL - 7NA55",
+        "price": 220,
+        "brand": "Acer",
+        "image": "https://i.ibb.co/k6Y6QH9/Acer-6.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 7,
+        "name": "HP laptop core-i7 MODAL - 303NK",
+        "price": 520,
+        "brand": "HP",
+        "image": "https://i.ibb.co/sJNKTk4/Hp-1.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i7",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "120GB",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 8,
+        "name": "HP laptop core-i3 MODAL - 34AC32",
+        "price": 300,
+        "brand": "HP",
+        "image": "https://i.ibb.co/WnDmQfY/Hp-2.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "6th Generation"
+    },
+
+    {
+        "id": 9,
+        "name": "HP laptop core-i5 MODAL - 100NM2",
+        "price": 320,
+        "brand": "HP",
+        "image": "https://i.ibb.co/xs4dqP6/Hp-3.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i5",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "6th Generation"
+    },
+
+    {
+        "id": 10,
+        "name": "Lenovo laptop core-i3 MODAL - 55N3MK",
+        "price": 220,
+        "brand": "Lenovo",
+        "image": "https://i.ibb.co/gSzB5xW/Lenovo-1.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "5th Generation"
+    },
+
+    {
+        "id": 11,
+        "name": "Lenovo laptop core-i5 MODAL - 22CT54",
+        "price": 250,
+        "brand": "Lenovo",
+        "image": "https://i.ibb.co/74HK4CK/Lenovo-2.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "4GB",
+        "hdd": "1TB",
+        "sdd": "",
+        "gen": "6th Generation"
+    },
+
+    {
+        "id": 12,
+        "name": "Samsung laptop core-i5 Sky blue color",
+        "price": 260,
+        "brand": "Samsung",
+        "image": "https://i.ibb.co/RSDyHhs/Samsung-1.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i5",
+        "ram": "4GB",
+        "hdd": "500GB",
+        "sdd": "",
+        "gen": "3rd Generation"
+    },
+
+    {
+        "id": 13,
+        "name": "Walton laptop core-i3 MODAL - 4040M",
+        "price": 350,
+        "brand": "Walton",
+        "image": "https://i.ibb.co/rtt6Q0S/Walton-1.jpg",
+        "description": "A one stop laptop for all your creative needs. The ConceptD 7 Validated 4K UHD display and multiple display modes are ideal for professional graphics artists who want to be able sketch, finalize and present on one device. Whether at home or on the go, experience the freedom of being able to create whenever the moment strikes with its 11th Gen Intel® Core™ i3 processor and up to NVIDIA® GeForce RTX™ 3080 laptop GPU1. Type comfortably in any environment with the backlit keyboard. The warm amber back-lighting creates a soft radiance reminiscent of nature and a breaking dawn. Micro-Arc Oxidation (MAO) adds an extra level of ceramic hardness, strength, and corrosion and oxidation resistance to the laptop’s metal surfaces. The stain resistant coating protects the laptop from yellowing, and marking by materials such as dirt, markers, and coffee.",
+        "processor": "Core - i3",
+        "ram": "2GB",
+        "hdd": "500GB",
+        "sdd": "120GB",
+        "gen": "5th Generation"
+    }
+]

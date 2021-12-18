@@ -1,0 +1,53 @@
+.manage-card{
+    height: 320px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px gray;
+    padding: 20px 10px;
+    font-family: sans-serif;
+}
+
+.card-info{
+    height: 240px;
+}
+
+.manage-card h6{
+    font-weight: 700;
+    font-size: 17px;
+    color: #2c3e50;
+}
+
+.deleteBtn{
+    z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #2c3e50;
+}
+
+.deleteBtn::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2980b9;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .deleteBtn:hover {
+    cursor: pointer;
+  }
+  
+  .deleteBtn:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
