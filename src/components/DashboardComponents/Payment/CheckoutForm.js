@@ -14,7 +14,7 @@ const CheckoutForm = ({ order }) => {
   const [clientSecret, setClientSecret] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/create-payment-intent", {
+    fetch("https://afternoon-anchorage-61727.herokuapp.com/create-payment-intent", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -84,7 +84,7 @@ const CheckoutForm = ({ order }) => {
         last4: paymentMethod.card.last4
       }
 
-      fetch(`http://localhost:5000/payments/${_id}`, {
+      fetch(`https://afternoon-anchorage-61727.herokuapp.com/payments/${_id}`, {
         method: 'PUT',
         headers: {
           'content-type': 'application/json'
