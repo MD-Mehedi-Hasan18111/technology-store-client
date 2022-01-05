@@ -74,7 +74,7 @@ const useFirebase = () => {
   // check admin
   useEffect(() => {
     setIsLoading(true);
-    fetch(`https://afternoon-anchorage-61727.herokuapp.com/users/${user.email}`)
+    fetch(`https://infinite-eyrie-71838.herokuapp.com/users/${user.email}`)
       .then(res => res.json())
       .then(data => {
         if (data.role === 'admin') {
@@ -90,7 +90,7 @@ const useFirebase = () => {
 
   const saveUser = (name, email, action) => {
     const newUser = { name, email };
-      fetch(`https://afternoon-anchorage-61727.herokuapp.com/users`, {
+      fetch(`https://infinite-eyrie-71838.herokuapp.com/users`, {
         method: action,
         headers: {
           'content-type': 'application/json'

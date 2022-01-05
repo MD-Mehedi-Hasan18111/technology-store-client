@@ -27,7 +27,7 @@ const CustomerReivew = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     userReview.date = todayDate;
-    fetch("https://afternoon-anchorage-61727.herokuapp.com/CustomerReviews", {
+    fetch("https://infinite-eyrie-71838.herokuapp.com/CustomerReviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",

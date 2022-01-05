@@ -13,7 +13,7 @@ const Payment = () => {
   const [order, setOrder] = useState({});
 
   useEffect(() => {
-    fetch(`https://afternoon-anchorage-61727.herokuapp.com/order/${productId}`)
+    fetch(`https://infinite-eyrie-71838.herokuapp.com/order/${productId}`)
       .then((res) => res.json())
       .then((data) => setOrder(data));
   }, []);

@@ -13,7 +13,7 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() =>{
-        fetch(`https://afternoon-anchorage-61727.herokuapp.com/orders/${user.email}`)
+        fetch(`https://infinite-eyrie-71838.herokuapp.com/orders/${user.email}`)
         .then(res => res.json())
         .then(data => {
             setOrders(data)
@@ -31,7 +31,7 @@ const MyOrders = () => {
     })
       .then((willDelete) => {
         if (willDelete) {
-          fetch(`https://afternoon-anchorage-61727.herokuapp.com/orders/${id}`, {
+          fetch(`https://infinite-eyrie-71838.herokuapp.com/orders/${id}`, {
             method: 'DELETE'
           })
             .then(res => res.json())

@@ -6,7 +6,7 @@ const ManageOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch(`https://afternoon-anchorage-61727.herokuapp.com/orders`)
+    fetch(`https://infinite-eyrie-71838.herokuapp.com/orders`)
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);
@@ -16,7 +16,7 @@ const ManageOrders = () => {
   console.log(orders);
 
   const shippedOrder = (id) => {
-    fetch(`https://afternoon-anchorage-61727.herokuapp.com/orders/${id}`, {
+    fetch(`https://infinite-eyrie-71838.herokuapp.com/orders/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -39,7 +39,7 @@ const ManageOrders = () => {
       dangerMode: true,
     }).then((willDelete) => {
       if (willDelete) {
-        fetch(`https://afternoon-anchorage-61727.herokuapp.com/orders/${id}`, {
+        fetch(`https://infinite-eyrie-71838.herokuapp.com/orders/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

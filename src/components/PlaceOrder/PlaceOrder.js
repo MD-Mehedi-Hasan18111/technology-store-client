@@ -15,7 +15,7 @@ const PlaceOrder = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`https://afternoon-anchorage-61727.herokuapp.com/products/${id}`)
+    fetch(`https://infinite-eyrie-71838.herokuapp.com/products/${id}`)
       .then((res) => res.json())
       .then((data) => setOrderProduct(data));
   }, []);
@@ -34,7 +34,7 @@ const PlaceOrder = () => {
     data.ram = orderProduct.ram;
     data.hdd = orderProduct.hdd;
     data.status = "Pending";
-    fetch("https://afternoon-anchorage-61727.herokuapp.com/orders", {
+    fetch("https://infinite-eyrie-71838.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -7,7 +7,7 @@ const ManageProducts = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://afternoon-anchorage-61727.herokuapp.com/products")
+    fetch("https://infinite-eyrie-71838.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [products]);
@@ -21,7 +21,7 @@ const ManageProducts = () => {
       dangerMode: true,
     }).then((willDelete) => {
       if (willDelete) {
-        fetch(`https://afternoon-anchorage-61727.herokuapp.com/products/${id}`, {
+        fetch(`https://infinite-eyrie-71838.herokuapp.com/products/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
