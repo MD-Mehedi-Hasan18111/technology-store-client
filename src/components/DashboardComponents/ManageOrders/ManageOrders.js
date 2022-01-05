@@ -70,6 +70,7 @@ const ManageOrders = () => {
               <th>Price</th>
               <th>Order date</th>
               <th>Status</th>
+              <th>Payment status</th>
             </tr>
           </thead>
           <tbody>
@@ -88,6 +89,11 @@ const ManageOrders = () => {
                     <td className="text-danger fw-bold">{order.status}</td>
                   ) : (
                     <td className="text-success fw-bold">{order.status}</td>
+                  )}
+                  {order?.payment ? (
+                    <td className="text-success fw-bold">Paid</td>
+                  ) : (
+                    <td className="text-danger fw-bold">Unpaid</td>
                   )}
                   <td>
                     {order?.status === "Pending" ? (

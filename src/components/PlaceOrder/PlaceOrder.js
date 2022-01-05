@@ -58,6 +58,7 @@ const PlaceOrder = () => {
         <Row style={{ padding: "40px 0" }}>
           <Col xs={12} md={12} lg={4}>
             <h5>{orderProduct?.name}</h5>
+            <h6>Price: ${ orderProduct?.price}</h6>
             <h6>RAM: {orderProduct?.ram}</h6>
             <h6>Hard Disk: {orderProduct?.hdd}</h6>
             {orderProduct?.sdd ? (
@@ -97,7 +98,7 @@ const PlaceOrder = () => {
                 required
               />
               <button className="placeBtn" type="submit">
-                Submit & Billing
+                Submit Order
               </button>
             </form>
           </Col>

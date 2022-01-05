@@ -20,6 +20,7 @@ import AddProducts from "./components/DashboardComponents/AddProducts/AddProduct
 import MakeAdmin from "./components/DashboardComponents/MakeAdmin/MakeAdmin";
 import HomeDashboard from "./components/DashboardComponents/DashboardHome/HomeDashboard";
 import NotFound from "./components/NotFound/NotFound";
+import Payment from "./components/DashboardComponents/Payment/Payment";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
           >
             <Route path={`/dashboard`} element={<HomeDashboard />} />
             <Route exact path={`/dashboard/myOrder`} element={<MyOrders />} />
+            <Route exact path={`/dashboard/payment/:productId`} element={<Payment />} />
             <Route
               exact
               path={`/dashboard/customerReview`}
